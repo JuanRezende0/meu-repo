@@ -11,7 +11,7 @@ const getUser = (callback) => {
       nationality: "Russian",
     };
     console.log(callback(user));
-  }, delay(10000));
+  }, delay());
 };
 
 getUser(userFullName); // deve imprimir "Hello! My name is Ivan Ivanovich" depois de um certo tempo
